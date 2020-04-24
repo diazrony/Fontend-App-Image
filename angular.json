@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "cloudinaryfront": {
@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cloudinaryfront"
+    }
+  },
+  "defaultProject": "cloudinaryfront",
+  "cli": {
+    "analytics": "c3918090-cf3c-438e-9e58-6bd59362fdd9"
+  }
 }
